@@ -127,3 +127,17 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* PARTE TABLET */
+@media screen and (max-width: 768px){
+    .container {
+        width: 715px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    p{
+        font-size: .9rem;
+    }
+}
+
+ /* FINE PARTE TABLET */
