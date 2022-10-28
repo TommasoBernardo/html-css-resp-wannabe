@@ -141,3 +141,41 @@ img {
 }
 
  /* FINE PARTE TABLET */
+
+ /* PARTE MOBILE */
+@media screen and (max-width: 480px){
+    .container{
+        width: 388px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+    
+    p{
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .steps .col {
+        width: 100%;
+
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+}
+ /* FINE PARTE MOBILE */
+
