@@ -179,3 +179,13 @@ img {
 }
  /* FINE PARTE MOBILE */
 
+/* LAYOUT DA 768 PX FINO A 1160 PX */
+@media screen and (min-width: 768px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+/* FINE LAYOUT DA 768 PX FINO A 1160 PX */
+
